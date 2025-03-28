@@ -6,11 +6,14 @@
     <title>Where You At? App</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
+    <h1>🌌 Where You At? App</h1>
+
     <div class="container">
-        <h1>Where You At? App</h1>
+        
         
         <div class="map-container">
             <div id="map"></div>
@@ -20,6 +23,13 @@
             </div>
             <ul id="locationsList"></ul>
         </div>
+
+        
+        <div class="image-container">
+            <h2>📷 Location Preview</h2>
+            <img id="locationImage" src="default.jpg" alt="Location Preview">
+        </div>
+
     </div>
 
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
